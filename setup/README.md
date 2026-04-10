@@ -2,7 +2,7 @@
 
 This guide is intended to get a FFXIV player setup with ACT and an overlay for parsing purposes and be able to upload logs to the FFLogs website.
 
-*Last updated: 2025-04-11*
+*Last updated: 2026-04-09*
 
 <img align="right" src="resources/act_logo.png" alt="act_logo" height="100" vspace="25">
 
@@ -15,8 +15,9 @@ This guide is intended to get a FFXIV player setup with ACT and an overlay for p
 - [Adding an Overlay](#adding-an-overlay)
   - [Preset Overlays](#preset-overlays)
   - [Custom Overlays](#custom-overlays)
-- [FFLogs Uploader](#fflogs-uploader)
-  - [Installing the Uploader](#installing-the-uploader)
+- [Archon App](#archon-app) (formerly FFLogs Uploader)
+  - [FFLogs Uploader is deprecated](#fflogs-uploader-deprecated)
+  - [Installing the Archon App](#installing-the-app)
   - [Uploading a Log](#uploading-a-log)
 
 ## Installing ACT
@@ -119,23 +120,26 @@ In the overlay settings, make sure to add the overlay **URL** source. It can be 
 
 ![URL Field](resources/overlay_url.png)
 
-## FFLogs Uploader
+## Archon App
 
-### Installing the Uploader
+### FFLogs Uploader deprecated
+The FFLogs Uploader has been deprecated as of March 10, 2026. You can upgrade your client to the new Archon App from inside the existing app. It still works similarly, the only major difference is the need to select Final Fantasy XIV in the game selector on the top bar the first time you launch it since the app now includes support for multiple MMOs.
 
-Navigate to the [FFLogs Download](https://www.fflogs.com/client/download/) page and download the FFLogs client application for your platform. 
+### Installing the App
 
-![FFLogs Uploader Download](resources/fflogs_download.png)
+Navigate to the [Archon App Download](https://archon.gg/download/) page and download the client application for your platform. 
 
-Find the `FFLogsUploader` install application in your downloads and run it. The application will ask you whether to install for all users or just yourself. Click on the **Install** button after selecting your choice then **Finish** once the installation is done.
+![Archon App Download](resources/archon_download.png)
 
-![FFLogs Uploader Installation Wizard](resources/install_uploader.png)
+Find the `Archon App` installer in your downloads and run it. The application will ask you whether to install for all users or just yourself. Click on the **Install** button after selecting your choice then **Finish** once the installation is done.
+
+![Archon App Installation Wizard](resources/install_archon.png)
 
 ### Uploading a Log
 
 *Note: You will need to [register](https://www.fflogs.com/register/) for an FFLogs account in order to upload logs.*
 
-Run the FFlogs Uploader application. Enter the account information you used to sign up. Once you are authenticated, click on the **Upload a Log** button.
+Run the Archon App. Select Final Fantasy in the game selector at the top of the application, then enter the account information you used to sign up. Once you are authenticated, click on the **Upload a Log** button.
 
 ![Upload a Log Button](resources/upload_log.png)
 
@@ -163,6 +167,6 @@ Select the specific encounter you want to upload from the list and click on the 
 
 ![Select Fights to Upload](resources/select_fight.png)
 
-Once the uploader is finished uploading the encounters to the FFLogs website, click on **View Report** to open up the page in your default browser and view the log results.
+Once the uploader is finished uploading the encounters to the FFLogs website, click on **View Post-Pull Analysis** to view the report directly in the Archon App, or click **Open FFLogs Report** to open up the page in your default browser and view the log results.
 
 ![View the Report](resources/view_report.png)
